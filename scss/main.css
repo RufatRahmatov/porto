@@ -205,6 +205,13 @@ body {
   flex-direction: column;
   padding: 30px solid;
 }
+.img-column div {
+  display: flex;
+}
+.img-column div div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
 
 .img-column img:nth-child(1) {
   width: 93px;
