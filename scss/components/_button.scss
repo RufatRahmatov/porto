@@ -1,0 +1,57 @@
+@use "../utils/variables" as *;
+
+
+.btn{
+
+   button{
+      background-color: $button-one-bg-color;
+      padding: $default-button-padding;
+      color: aliceblue;
+      border-radius: 6px;
+      height: 42px;
+      width: 100px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease
+
+   }
+}
+.btn button:hover{
+   background-color: rgb(87, 180, 50)
+}
+;
+.btn--hd{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:$button-two-bg-color;
+   color: white;
+   font-size: 13px;
+  height: 50px;
+   border-radius: 40px;
+   padding: 20px;
+   // padding-right: 20px;
+   cursor: pointer;
+  
+ 
+
+
+}
+
+
+.btn-join{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 50px;
+}
+.join-now{
+   display: flex;
+   align-items: center;
+  justify-content: center;
+height: 60px;
+width: 180px;
+  border-radius: 30px;
+  background-color:#4e1adb ;
+  color: white;
+  cursor: pointer;
+}

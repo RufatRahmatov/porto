@@ -1,0 +1,21 @@
+@use "../utils/variables" as v;
+@use "../utils/mixins" as m;
+
+
+.footer{
+    display: flex;
+    align-items: center;
+   
+}
+
+.footer-li{
+    list-style: none;
+    padding: 60px ;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.footer-2{
+    padding: 200px;
+}
+

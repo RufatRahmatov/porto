@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;500;700;900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  background-color: #D3CEFC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn button {
+  background-color: #7AA93C;
+  padding: 10px;
+  color: aliceblue;
+  border-radius: 6px;
+  height: 42px;
+  width: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn button:hover {
+  background-color: rgb(87, 180, 50);
+}
+
+.btn--hd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3A53F1;
+  color: white;
+  font-size: 13px;
+  height: 50px;
+  border-radius: 40px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.btn-join {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.join-now {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 180px;
+  border-radius: 30px;
+  background-color: #4e1adb;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer-li {
+  list-style: none;
+  padding: 60px;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.footer-2 {
+  padding: 200px;
+}
+
+.header-one {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: black;
+}
+
+.fa-leaf {
+  color: #7AA93C;
+}
+
+.envato {
+  color: white;
+  font-size: 22px;
+}
+
+.market {
+  color: #7AA93C;
+  font-size: 26px;
+  font-family: italic;
+}
+
+.li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  padding: 40px;
+  cursor: pointer;
+}
+
+.img-one {
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+  gap: 50px;
+  height: -30px;
+}
+
+.fa-angle-down {
+  padding: 3px;
+}
+
+.header-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 15px;
+}
+
+.header-icon li {
+  display: flex;
+  align-items: center;
+}
+
+.fa-magnifying-glass {
+  gap: 5px;
+  width: 20px;
+}
+
+.sigin-in {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.hello {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hello h1 {
+  font-size: 60px;
+  padding: 20px;
+}
+
+.fashion {
+  color: #4e1adb;
+}
+
+.lifestyle {
+  color: #4e1adb;
+}
+
+.health {
+  color: #4e1adb;
+}
+
+.hello h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.featured-posts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.featured-posts h1:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.featured-posts img {
+  width: 650px;
+  border-radius: 7px;
+}
+
+.featured-posts button:nth-child(1) {
+  border-radius: 50px;
+  width: 80px;
+  background-color: #FCE6F3;
+  cursor: pointer;
+}
+
+.img-column {
+  display: flex;
+  flex-direction: column;
+  padding: 30px solid;
+}
+
+.img-column img:nth-child(1) {
+  width: 93px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img--girl {
+  width: 40px;
+}/*# sourceMappingURL=main.css.map */

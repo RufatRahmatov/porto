@@ -1,0 +1,55 @@
+@use "../utils/variables" as v;
+@use "../utils/mixins" as m;
+
+.featured-posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+
+.featured-posts h1:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+}
+
+.featured-posts img{
+    width: 650px;
+    border-radius: 7px;
+}
+
+.featured-posts button:nth-child(1){
+    border-radius: 50px;
+    width: 80px;
+    background-color: #FCE6F3;
+    
+ 
+   cursor: pointer;
+
+}
+
+
+
+
+.img-column{
+    display: flex;
+    flex-direction: column;
+    padding: 30px solid;
+    
+}
+.img-column img:nth-child(1){
+    width: 93px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.img--girl{
+    width: 40px;
+}
